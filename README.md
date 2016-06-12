@@ -1,4 +1,4 @@
-###Aura for Cinnamon, forked from [Numix-Cinnamon|https://github.com/zagortenay333/numix-cinnamon]
+###Aura for Cinnamon, forked from [Numix-Cinnamon](https://github.com/zagortenay333/numix-cinnamon)
 
 ---
 
