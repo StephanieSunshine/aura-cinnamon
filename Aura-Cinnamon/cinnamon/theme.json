@@ -1,0 +1,10 @@
+{
+   "cinnamon-theme": {
+        "name" : "Aura-Cinnamon",
+        "author" : "StephanieSunshine",
+        "version" : "v0.1",
+        "type" : "custom",
+        "thumbnail" : "thumbnail.png",
+        "url" : "https://github.com/StephanieSunshine/aura-cinnamon"
+    }
+}

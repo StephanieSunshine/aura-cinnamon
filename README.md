@@ -1,10 +1,10 @@
-###Numix for cinnamon
+###Aura for Cinnamon, forked from [Numix-Cinnamon|https://github.com/zagortenay333/numix-cinnamon]
 
 ---
 
 ####Installation
 
-Move the `Numix-Cinnamon` folder into your `~/.themes` directory.
+Move the `Aura-Cinnamon` folder into your `~/.themes` directory.
 
 ---
 
@@ -48,13 +48,13 @@ __In order to use gulp:__
 
 __Gulp will:__
 
-* __Make a symlink of the__ `Numix-Cinnamon` __folder inside the__ `~/.themes` __dir.__
+* __Make a symlink of the__ `Aura-Cinnamon` __folder inside the__ `~/.themes` __dir.__
 
     * It will create a `~/.themes` dir if it doesn't exist already.
 
     * Even if you change the location of your working directory, running `gulp` will update the link.
 
-    * If you already have a folder/file named `Numix-Cinnamon` in your `.themes` dir, it will be __deleted__.
+    * If you already have a folder/file named `Aura-Cinnamon` in your `.themes` dir, it will be __deleted__.
 
 * __Compile sass__ whenever certain files change.
     * Open `gulpfile.js` to see what files/folders are being watched.

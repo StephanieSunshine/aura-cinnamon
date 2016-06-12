@@ -2,17 +2,17 @@
    ! Font
    ===================================================================*/
 stage {
-  font-family: Droid Sans, Sans-Serif;
-  font-size: 9pt;
+  font-family: Lato, Droid Sans, Sans-Serif;
+  font-size: 12pt;
 }
 
 .cinnamon-link {
-  color: #d64937;
+  color: #007fff;
   font-weight: normal;
 }
 
 .cinnamon-link:hover {
-  color: #e0776a;
+  color: #3d9eff;
   text-decoration: underline;
 }
 
@@ -105,7 +105,7 @@ StScrollBar StButton#hhandle:focus {
   caret-color: rgba(255, 255, 255, 0.8);
   caret-size: 1px;
   selected-color: white;
-  selection-background-color: #d64937;
+  selection-background-color: #007fff;
 }
 
 .popup-menu StEntry StIcon,
@@ -207,7 +207,7 @@ StScrollBar StButton#hhandle:focus {
   -slider-height: 2px;
   -slider-background-color: transparent;
   -slider-border-color: transparent;
-  -slider-active-background-color: #d64937;
+  -slider-active-background-color: #007fff;
   -slider-active-border-color: transparent;
   -slider-border-width: 2px;
   -slider-handle-radius: 4px;
@@ -337,7 +337,7 @@ StScrollBar StButton#hhandle:focus {
   -slider-height: 2px;
   -slider-background-color: transparent;
   -slider-border-color: transparent;
-  -slider-active-background-color: #d64937;
+  -slider-active-background-color: #007fff;
   -slider-active-border-color: transparent;
   -slider-border-width: 2px;
   -slider-handle-radius: 4px;
@@ -368,7 +368,7 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .popup-device-menu-item .popup-inactive-menu-item {
-  color: #f0ad4e;
+  color: #ff0080;
 }
 
 /* ===================================================================
@@ -419,11 +419,11 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .panel-dummy {
-  background-color: rgba(214, 73, 55, 0.8);
+  background-color: rgba(0, 127, 255, 0.8);
 }
 
 .panel-dummy:entered {
-  background-color: #d64937;
+  background-color: #007fff;
 }
 
 /* This styles the systray items */
@@ -529,11 +529,11 @@ StScrollBar StButton#hhandle:focus {
 
 .expo-workspaces-name-entry:focus, .expo-workspaces-name-entry#selected:focus {
   border-image: url("expo-scale-assets/workspace-name-pressed.svg") 12;
-  color: #d64937;
+  color: #007fff;
   selected-color: rgba(255, 255, 255, 0.8);
   caret-color: rgba(255, 255, 255, 0.8);
   caret-size: 1px;
-  selection-background-color: #d64937;
+  selection-background-color: #007fff;
 }
 
 .workspace-close-button {
@@ -667,7 +667,7 @@ StScrollBar StButton#hhandle:focus {
     Tweak default $link color to fix
 */
 .url-highlighter {
-  link-color: #ff604b;
+  link-color: #3d9eff;
 }
 
 #notification {
@@ -685,7 +685,7 @@ StScrollBar StButton#hhandle:focus {
 #notification CinnamonGenericContainer * {
   font-weight: normal;
   font-size: 9pt;
-  color: #f0ad4e;
+  color: #ff0080;
 }
 
 #notification CinnamonGenericContainer *:first-child {
@@ -1038,14 +1038,14 @@ StScrollBar StButton#hhandle:focus {
 .run-dialog-error-box {
   padding: 12px 4px 6px 4px;
   spacing: 1em;
-  color: #ff2e2e;
+  color: #7fff00;
   font-weight: bold;
 }
 
 .run-dialog-error-box StIcon {
   width: 16px;
   height: 16px;
-  color: #ff2e2e;
+  color: #7fff00;
 }
 
 .run-dialog-completion-box {
@@ -1088,7 +1088,7 @@ StScrollBar StButton#hhandle:focus {
 .about-version {
   padding-left: 7px;
   font-size: 9pt;
-  color: #f0ad4e;
+  color: #ff0080;
 }
 
 .about-icon {
@@ -1479,7 +1479,7 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .sound-player > StBoxLayout:first-child StButton:small:hover * {
-  color: #d64937;
+  color: #007fff;
 }
 
 .sound-player-generic-coverart {
@@ -1575,7 +1575,7 @@ StScrollBar StButton#hhandle:focus {
   height: .5em;
   -slider-height: .4em;
   -slider-background-color: #333;
-  -slider-active-background-color: #d64937;
+  -slider-active-background-color: #007fff;
   -slider-handle-radius: 0;
 }
 
@@ -1838,7 +1838,7 @@ StScrollBar StButton#hhandle:focus {
    ! Window Quicky List applet
    ===================================================================*/
 .window-sticky {
-  color: #f0ad4e;
+  color: #ff0080;
   font-weight: bold;
 }
 
@@ -1893,7 +1893,7 @@ StScrollBar StButton#hhandle:focus {
 
 .osd-window .level {
   height: 5px;
-  color: #d64937;
+  color: #007fff;
 }
 
 .workspace-osd {
@@ -1944,7 +1944,7 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .tile-preview.snap, .tile-hud.snap {
-  background-color: rgba(214, 73, 55, 0.8);
+  background-color: rgba(0, 127, 255, 0.8);
 }
 
 /* ===================================================================
@@ -1969,7 +1969,7 @@ StScrollBar StButton#hhandle:focus {
   background-gradient-direction: vertical;
   background-gradient-start: rgba(255, 255, 255, 0);
   background-gradient-end: rgba(255, 255, 255, 0);
-  color: #d64937;
+  color: #007fff;
   text-decoration: underline;
 }
 
@@ -2515,7 +2515,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
 
 /* Window capture mode */
 .capture-outline-background {
-  background-color: rgba(214, 73, 55, 0.8);
+  background-color: rgba(0, 127, 255, 0.8);
 }
 
 .capture-outline-frame {
@@ -2550,7 +2550,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
   text-shadow: 0 0 0 transparent;
   text-align: center;
   vertical-align: top;
-  font-family: Droid Sans, Sans-Serif;
+  font-family: Lato, Droid Sans, Sans-Serif;
   font-size: 10pt;
   font-weight: bold;
   clear: both;
@@ -2733,7 +2733,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
 }
 
 .sticky-button-selected * {
-  color: #d64937;
+  color: #007fff;
 }
 
 .sticky-button-box {
@@ -2809,7 +2809,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
   caret-color: rgba(255, 255, 255, 0.8);
   caret-size: 1px;
   selected-color: white;
-  selection-background-color: #d64937;
+  selection-background-color: #007fff;
 }
 
 .sticky-text-box StIcon {
@@ -2842,7 +2842,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
   selected-color: rgba(255, 255, 255, 0.8);
   caret-color: rgba(255, 255, 255, 0.8);
   caret-size: 1px;
-  selection-background-color: #d64937;
+  selection-background-color: #007fff;
 }
 
 /* ===================================================================
@@ -2935,13 +2935,13 @@ StBoxLayout.applet-box.desktop-capture StBin {
 
 .calc-displayText-secondary {
   font-size: 10pt;
-  color: #f0ad4e;
+  color: #ff0080;
   text-align: right;
   padding-bottom: 8px;
 }
 
 .calc-displayText-operation {
-  color: #f0ad4e;
+  color: #ff0080;
 }
 
 .calc-displayText-status {
@@ -2976,7 +2976,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
 }
 
 .calc-navigation-button:hover .calc-navigation-icon {
-  color: #d64937;
+  color: #007fff;
 }
 
 .calc-button {
@@ -3108,7 +3108,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
 }
 
 .grid-preview:activate {
-  background-color: rgba(214, 73, 55, 0.5);
+  background-color: rgba(0, 127, 255, 0.5);
   border: 1px solid rgba(0, 0, 0, 0.45);
   border-radius: 2px;
 }
